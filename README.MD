@@ -1,6 +1,9 @@
+#JWT Express server
+Using JWT for a REST api with an example using authentication and user managing. Persistence using Lokijs
+
 #debugging
 
-node --debug app.js
+node --debug server.js
 node-inspector --web-port=1945
 
 Then open the following URL in browser: 
