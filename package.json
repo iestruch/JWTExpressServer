@@ -1,0 +1,34 @@
+{
+  "name": "JWTExpressServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "debugA": "node --debug server.js",
+    "debugB":"node-inspector --web-port=1945",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iestruch/react_demo.git"
+  },
+  "keywords": ["JWT","express","lokijs"],
+  "author": "Ivan Estruch (http://github.com/iestruch)",
+  "homepage": "https://github.com/iestruch/JWTExpressServer",
+    "bugs": {
+    "url": "https://github.com/iestruch/JWTExpressServer/issues"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "express": "^4.13.3",
+    "jsonwebtoken": "^5.5.4",
+    "kerberos": "0.0.17",
+    "lodash": "^4.0.0",
+    "lokijs": "^1.3.11",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1",
+    "sha1": "^1.1.1"
+  }
+}
